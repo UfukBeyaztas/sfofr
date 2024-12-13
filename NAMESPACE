@@ -1,0 +1,23 @@
+export(
+"data_generation",
+"getSPCA",
+"sffreg",
+"predict_sffreg"
+)
+
+
+import(fda)
+import(MASS)
+import(Matrix)
+
+importFrom("graphics", "legend", "lines")
+importFrom("stats", ".getXlevels", "cov", "cov.wt", "dchisq",
+             "integrate", "lm", "mahalanobis", "median", "model.matrix",
+             "na.omit", "pchisq", "pnorm", "qnorm", "qchisq", "quantile", "rnorm",
+             "runif", "terms", "as.formula", "delete.response", "model.frame",
+               "rexp", "rgamma", "vcov")
+importFrom("utils", "combn")
+importFrom("fda.usc", "Adot")
+importFrom("fda.usc", "fdata")
+importFrom("expm", "sqrtm")
+importFrom("fda.usc", "inprod.fdata")

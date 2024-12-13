@@ -1,0 +1,20 @@
+Package: sfofr
+Type: Package
+Title: Spatial Function-on-Function Regression Model
+Version: 1.0
+Depends: R (>= 3.5.0), fda, MASS, Matrix
+Imports: expm, fda.usc
+LazyLoad: yes
+ByteCompile: TRUE
+Encoding: UTF-8
+Authors@R: c(
+	person("Ufuk", "Beyaztas", email="ufukbeyaztas@gmail.com", role=c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-5208-4950")),
+	person("Han Lin", "Shang", role="aut", comment = c(ORCID = "0000-0003-1769-6430")),
+	person("Gizel Bakicierler", "Sezer", role="aut", comment = c(ORCID = "0000-0002-1789-0842")),
+	person("Abhijit", "Mandal", role="aut", comment = c(ORCID = "0000-0003-3830-6526")),
+	person("Roger S.", "Zoh", role="aut", comment = c(ORCID = "0000-0002-8066-1153")),
+	person("Carmen D.", "Tekwe", role="aut", comment = c(ORCID = "0000-0002-1857-2416"))
+	)
+Maintainer: Ufuk Beyaztas <ufukbeyaztas@gmail.com>
+Description: Functions for implementing methods for spatial function-on-function regression model.
+License: GPL-3
