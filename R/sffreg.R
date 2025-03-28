@@ -27,7 +27,7 @@ sffreg <- function(Y, X, W, nbasis=NULL, gpy=NULL, gpx=NULL,
     fpcax <- getPCA(data = X, nbasis = nbasis, gp = gpx)
   }else if(model.type == "spatial") {
     fpcay <- getSPCA(data = Y, nbasis = nbasis, gp = gpy, W = W)
-    fpcax <- getPCA(data = X, nbasis = nbasis, gp = gpx)
+    fpcax <- getSPCA(data = X, nbasis = nbasis, gp = gpx, W = W)
   }
 
   n <- dim(Y)[1]
